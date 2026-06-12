@@ -1,17 +1,26 @@
-# EO-Pharmaceutical-Pollutants-ML
 
-This repository contains the dataset, machine learning models, and analysis scripts associated with the manuscript:
+# EO-Pharmaceutical-Pollutants
+
+Repository accompanying the manuscript:
 
 "Predicting the Degradation Kinetics of Pharmaceutical Pollutants during Electrochemical Oxidation: A Synergistic Machine Learning Framework and Mechanistic Insights"
 
 ## Contents
 
 - Dataset (355 observations from 31 pharmaceutical compounds)
+- Feature selection workflow
 - Traditional machine learning models
-- XGBoost optimized model
-- Graph neural network models
-- SHAP analysis scripts
-- Data processing workflow
+- D-MPNN model
+- KANO model
+- SHAP analysis
+
+## Requirements
+
+Python 3.11
+scikit-learn
+xgboost
+chemprop
+RDKit
 
 ## Citation
 
